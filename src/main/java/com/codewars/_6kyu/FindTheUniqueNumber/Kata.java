@@ -17,6 +17,6 @@ public class Kata {
                 return tmp.getKey();
             }
         }
-        return 0;
+        throw new RuntimeException("unique number not found");
     }
 }
