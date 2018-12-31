@@ -1,4 +1,4 @@
-package com.codewars._6kyu;
+package com.codewars._6kyu.VasyaClerk;
 
 import java.util.Arrays;
 

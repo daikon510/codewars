@@ -1,4 +1,4 @@
-package com.codewars._6kyu;
+package com.codewars._6kyu.VasyaClerk;
 
 import org.junit.Test;
 
@@ -25,22 +25,27 @@ public class LineTest {
     public void test4() {
         assertEquals("NO", Line.Tickets(new int[]{25, 100}));
     }
+
     @Test
     public void test5() {
         assertEquals("YES", Line.Tickets(new int[]{}));
     }
+
     @Test
     public void test6() {
         assertEquals("YES", Line.Tickets(new int[]{25, 25, 50, 50}));
     }
+
     @Test
     public void test7() {
         assertEquals("NO", Line.Tickets(new int[]{25, 25, 50, 50, 100}));
     }
+
     @Test
     public void test8() {
         assertEquals("YES", Line.Tickets(new int[]{25, 25, 50, 50, 25, 100}));
     }
+
     @Test
     public void test9() {
         assertEquals("NO", Line.Tickets(new int[]{25, 25, 50, 50, 100, 25}));
